@@ -21,8 +21,8 @@ class School
   end
 
   def sort
-    @roaster.sort.to_h
-    binding.pry
+    @roster.sort.to_h
+    #binding.pry
   end
 
 end
