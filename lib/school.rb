@@ -25,7 +25,7 @@ class School
     @roster.collect do |grade, names|
       names.collect do |n|
         n.split(" ").sort
-      end.join(" ")
+      end.join(", ")
     end
 
       #sort.to_h
