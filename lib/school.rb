@@ -27,6 +27,8 @@ class School
       binding.pry
     end
 
+    @roster
+
       #sort.to_h
     #binding.pry
   end
