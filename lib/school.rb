@@ -14,7 +14,7 @@ class School
       @roster[grade] = []
       @roster[grade] << name
     end
-    binding.pry
+    #binding.pry
 end
 
 end
