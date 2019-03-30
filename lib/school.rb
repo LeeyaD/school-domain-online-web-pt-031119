@@ -23,9 +23,11 @@ class School
   def sort
     binding.pry
     @roster.collect do |grade, names|
-      names.collect do |n|
-        n.split(" ").sort
-      end.join(", ")
+      names.collect do |name|
+        name.collect do |n|
+          n.split(" ").sort
+        end.join(", ")
+      end
     end
 
       #sort.to_h
