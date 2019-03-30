@@ -21,7 +21,11 @@ class School
   end
 
   def sort
-    @roster.sort.to_h
+    binding.pry
+    @roster.collect do |grade, names|
+      names.to_s.split("").sort
+    end
+      #sort.to_h
     #binding.pry
   end
 
