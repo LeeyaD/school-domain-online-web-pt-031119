@@ -10,7 +10,6 @@ class School
     binding.pry
     if @roster[grade] = []
       @roster[grade] << name
-    elsif
   end
 end
 
