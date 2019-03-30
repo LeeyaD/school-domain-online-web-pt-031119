@@ -12,6 +12,7 @@ class School
       @roster[grade] << name
     elsif
   end
+end
 
 
 
