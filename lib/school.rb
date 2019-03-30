@@ -14,11 +14,12 @@ class School
       @roster[grade] = []
       @roster[grade] << name
     end
-    #binding.pry
 end
 
   def grade (grade)
     @roster[grade]
     #binding.pry
   end
+
+
 end
