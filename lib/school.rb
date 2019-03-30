@@ -19,6 +19,6 @@ end
 
   def grade (grade)
     @roster[grade]
-    binding.pry
+    #binding.pry
   end
 end
