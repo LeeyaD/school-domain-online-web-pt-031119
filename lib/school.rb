@@ -21,25 +21,12 @@ class School
   end
 
   def sort
-    #binding.pry
-    @roster.collect do |grade, names|
-      names.sort
+    sorted_roster = {}
+    @roster.each do |grade, names|
+      sorted_roster[grade] = names.sort
       #binding.pry
     end
-
-    @roster
-
-      #sort.to_h
-    binding.pry
+    sorted_roster
   end
 
 end
-  #def sort
-    #sorted_roster = {}
-    #@roster.each do |grade, names|
-    #  sorted_roster[grade] = names.sort
-    #end
-
-    #sorted_roster
-
-  #end
