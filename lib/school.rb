@@ -24,13 +24,13 @@ class School
     #binding.pry
     @roster.collect do |grade, names|
       names.sort
-      binding.pry
+      #binding.pry
     end
 
     @roster
 
       #sort.to_h
-    #binding.pry
+    binding.pry
   end
 
 end
