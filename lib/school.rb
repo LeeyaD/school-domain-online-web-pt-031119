@@ -24,7 +24,7 @@ class School
     binding.pry
     @roster.collect do |grade, names|
       names.collect do |name|
-        name.collect do |n|
+        name.each do |n|
           n.split(" ").sort
         end.join(", ")
       end
